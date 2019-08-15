@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+#cv {
+    background-color: lightsalmon;
+    padding-left: 20px;
+    padding-right: 20px
+}
+
+/* Header section */
+#headshot img {
+    border-top: 10px solid crimson;
+    border-bottom: 5px dashed crimson;
+    border-right: 5px dashed crimson;
+    border-left: 10px solid crimson;
+    border-radius: 45%;
+}
+
+.mainDetails {
+    margin-left: -20px;
+    margin-right: -20px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: salmon;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: midnightblue;
+}
+
+#contactDetails ul {
+    list-style: none;
+}
+
+#contactDetails li {
+    display: inline;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: aquamarine;
+}
+
+#contactDetails a {
+    text-decoration: none;
+    color: aquamarine;
+}
+/* End header section */
+
+/* Content section */
+    #mainArea {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-bottom: 5px;
+    }
+
+    .sectionTitle {
+        padding-top: 5px;
+        text-align: center;
+    }
+
+    .sectionContent {
+        padding-bottom: 5px;
+    }
+
+    article {
+        padding-bottom: 5px;
+    }
+
+    h2 {
+        display: inline;
+    }
+
+    .subDetails {
+        float: right;
+    }
+
+    section {
+        border-top: 5px dashed dimgrey;
+    }
+
+    #keySkillsList {
+        text-align: center;
+    }
+
+    .keySkills {
+        display: inline-block;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+/* End content section */
