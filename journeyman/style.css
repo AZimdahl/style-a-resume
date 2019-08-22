@@ -133,7 +133,7 @@ section:last-child {
 
 .keySkills {
 	list-style-type: none;
-	column-count: 3;
+	column-count: 2;
 	margin-bottom: 20px;
 	font-size: 1em;
 }
